@@ -8,8 +8,8 @@ from typing import List, Optional
 
 from tabulate import tabulate
 
-from AverageReport import AverageReport
-from logging_config import setup_custom_logger
+from src.AverageReport import AverageReport
+from src.logging_config import setup_custom_logger
 
 logger = setup_custom_logger(__name__)
 
